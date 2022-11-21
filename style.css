@@ -21,14 +21,7 @@ body {
 }
 
 #color-secundary {
-  background: rgb(200, 122, 5);
-  background: linear-gradient(
-    90deg,
-    rgba(200, 122, 5, 1) 0%,
-    rgba(186, 128, 11, 1) 24%,
-    rgba(193, 129, 10, 1) 48%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background-color: rgb(242, 231, 212);
 }
 
 .text {
@@ -36,14 +29,22 @@ body {
   margin-left: 80px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
+  color: rgb(197, 136, 24);
 }
 
 .title {
   margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  color: rgb(197, 136, 24);
+}
+
+.title2 {
+  margin-bottom: 10px;
   margin-left: 80px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 35px;
-  color: white;
+  font-size: 50px;
+  color: black;
 }
 
 .botton {
@@ -67,9 +68,9 @@ body {
 }
 
 .botton:hover {
-  color: black;
   text-decoration: solid;
-  color: black border 1px solid rgb(209, 216, 224);
+  color: black;
+  border: 1px solid rgb(211, 211, 218);
   background-color: rgb(211, 211, 218);
   transform: scale(1.1);
 }
@@ -79,14 +80,12 @@ body {
     'Lucida Sans', Arial, sans-serif;
   font-size: 22px;
   margin-left: 80px;
-  color: white;
 }
 #description {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   margin-right: 380px;
-  color: white;
 }
 
 .circle-headeravatar {
@@ -133,12 +132,12 @@ body {
 }
 
 .email {
-  color: white;
   text-decoration: none;
+  color: black;
 }
 
 hr {
-  border: 1px solid white;
+  border: 2px solid rgb(197, 136, 24);
   margin: 0px 300px 0px 80px;
 }
 
@@ -148,7 +147,6 @@ li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   padding: 3px;
-  color: white;
 }
 
 dt {
@@ -156,9 +154,8 @@ dt {
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
-  color: white;
 }
 
 .email:hover {
-  color: black;
+  color: rgb(197, 136, 24);
 }
